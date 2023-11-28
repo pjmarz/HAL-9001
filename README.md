@@ -1,1 +1,1 @@
-# HAL-9001
+# future repo and project for AI inventory system
