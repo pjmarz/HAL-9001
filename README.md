@@ -1,1 +1,1 @@
-# future repo and project for AI inventory system
+# I'm afraid I can't do that
