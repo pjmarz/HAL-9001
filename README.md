@@ -11,7 +11,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/pjmarz/HAL-9001">
-    <img src="images/logo.png" alt="Logo" width="3500" height="3500">
+    <img src="images/logo.png" alt="Logo" width="320" height="320">
   </a>
 
 <h3 align="center">HAL-9001</h3>
