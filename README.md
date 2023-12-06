@@ -81,7 +81,7 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 ### Built With
 
 [![JavaScript][Javascript]][Javascript-url]
-[![Python][Python]][Python-url]
+[![React][React]][React-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -210,7 +210,7 @@ Peter Marino - [linktree](https://linktr.ee/pjmarz)
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/pjmarz/
 [product-screenshot]: images/screenshot.png
-[Javascript]: https://img.shields.io/badge/javascript-grey?style=for-the-badge&logo=javascript
-[Javascript-url]: https://www.javascript.com/
+[React]: https://img.shields.io/badge/react-grey?style=for-the-badge&logo=react
+[React-url]: https://react.dev/
 [Python]: https://img.shields.io/badge/python-000000?style=for-the-badge&logo=python
 [Python-url]: https://www.python.org/
