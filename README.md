@@ -175,7 +175,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [linktree](https://linktr.ee/pjmarz)
+Peter Marino - [linktree](https://linktr.ee/pjmarz)
 
 <!-- Project Link: [https://github.com/pjmarz/HAL-9001](https://github.com/pjmarz/HAL-9001) -->
 
