@@ -212,5 +212,5 @@ Peter Marino - [linktree](https://linktr.ee/pjmarz)
 [product-screenshot]: images/screenshot.png
 [Javascript.js]: https://img.shields.io/badge/javascript.js-grey?style=for-the-badge&logo=javascript
 [Javascript-url]: https://www.javascript.com/
-[Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
-[Next-url]: https://nextjs.org/
+[Next.js]: https://img.shields.io/badge/python-000000?style=for-the-badge&logo=python
+[Next-url]: https://www.python.org/
