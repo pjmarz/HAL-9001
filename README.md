@@ -175,9 +175,9 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/pjmarz) - petermarino2@gmail.com
+Your Name - [linktree](https://linktr.ee/pjmarz)
 
-Project Link: [hhttps://github.com/pjmarz/HAL-9001](hhttps://github.com/pjmarz/HAL-9001)
+<!-- Project Link: [https://github.com/pjmarz/HAL-9001](https://github.com/pjmarz/HAL-9001) -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
