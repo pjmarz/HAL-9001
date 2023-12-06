@@ -80,7 +80,7 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 
 ### Built With
 
-* [![JavaScript][Javascript.js]][Javascript-url]
+* [![JavaScript][Javascript.js]]
 * [![Next][Next.js]][Next-url]
 * [![React][React.js]][React-url]
 * [![Vue][Vue.js]][Vue-url]
@@ -217,7 +217,7 @@ Peter Marino - [linktree](https://linktr.ee/pjmarz)
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/pjmarz/
 [product-screenshot]: images/screenshot.png
-[Javascript.js]: https://img.shields.io/badge/with%20a%20logo-grey?style=for-the-badge&logo=javascript
+[Javascript.js]: https://img.shields.io/badge/JavaScript-grey?style=for-the-badge&logo=javascript
 [Javacsript-url]: https://www.javascript.com/
 [Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
 [Next-url]: https://nextjs.org/
