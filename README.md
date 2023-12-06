@@ -16,11 +16,9 @@
 
 <h3 align="center">HAL-9001</h3>
 
-  <p align="center">
-    Welcome to HAL-9001, where we believe that every bottle of liquor has a story worth telling - and we're here to spill the details (but not the liquor, we promise). This nifty system is like a sommelier meets tech whiz, designed to transform the way we look at (literally) and manage information about liquor and spirit bottles. 
-    
+  <p align="left">
+    Welcome to HAL-9001, where we believe that every bottle of liquor has a story worth telling - and we're here to spill the details (but not the liquor, we promise). This nifty system is like a sommelier meets tech whiz, designed to transform the way we look at (literally) and manage information about liquor and spirit bottles.
     Combining the eagle-eyed precision of a camera with the Sherlock Holmes-esque deduction skills of OpenAI's ChatGPT, HAL-9001 is on a mission to uncover the secrets behind every bottle. From the deep, dark mysteries of an aged whiskey to the spirited tales of a lively vodka, this system captures images of liquor bottles and uses AI to deduce make, model, alcohol by volume (ABV), and even the price tag - because who doesn't like to know the value of their liquid treasures?
-    
     Here's the techy bit: HAL-9001 uses JavaScript for a smooth and interactive frontend, because we like our interfaces like we like our martinis - sleek and easy to navigate. The backend is powered by Python, the workhorse that silently crunches numbers and data, much like a dedicated bartender perfecting a cocktail.
     <br />
     <a href="https://github.com/pjmarz/HAL-9001/wiki"><strong>Explore the docs »</strong></a>
