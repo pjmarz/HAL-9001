@@ -205,7 +205,7 @@ Peter Marino - [linktree](https://linktr.ee/pjmarz)
 [contributors-url]: https://github.com/pjmarz/HAL-9001/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/pjmarz/HAL-9001.svg?style=for-the-badge
 [forks-url]: https://github.com/pjmarz/HAL-9001/network/members
-[stars-shield]: https://img.shields.io/github/stars/github_username/repo_name.svg?style=for-the-badge
+[stars-shield]: https://img.shields.io/github/stars/https://github.com/pjmarz/HAL-9001?style=for-the-badge
 [stars-url]: https://github.com/pjmarz/HAL-9001/stargazers
 [issues-shield]: https://img.shields.io/github/issues/pjmarz/HAL-9001.svg?style=for-the-badge
 [issues-url]: https://github.com/pjmarz/HAL-9001/issues
