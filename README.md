@@ -210,7 +210,7 @@ Peter Marino - [linktree](https://linktr.ee/pjmarz)
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/pjmarz/
 [product-screenshot]: images/screenshot.png
-[Javascript.js]: https://img.shields.io/badge/javascript.js-000000?style=for-the-badge&logo=javascript&logoColor=white
+[Javascript.js]: https://img.shields.io/badge/javascript.js-grey?style=for-the-badge&logo=javascript
 [Javascript-url]: https://www.javascript.com/
 [Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
 [Next-url]: https://nextjs.org/
