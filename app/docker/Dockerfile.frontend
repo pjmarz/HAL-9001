@@ -25,15 +25,11 @@ USER appuser
 # Stage 2: Serve the app using Nginx
 FROM nginx:stable-alpine as production-stage
 
-# Copy the built assets from the build-stage and set permissions
-COPY --from=build-stage /app/build /usr/share/nginx/html
-COPY --from=build-stage /etc/passwd /etc/passwd
-
 # Copy the custom nginx.conf to the image
 COPY ./docker/nginx.conf /etc/nginx/nginx.conf
 
-# Expose port 3000 to the outside once the container has launched
-EXPOSE 3000
+# Expose port 80 to the outside once the container has launched
+EXPOSE 80
 
 # Define the running command
 CMD ["nginx", "-g", "daemon off;"]
