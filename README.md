@@ -73,7 +73,7 @@
   <p align="left">
   Technically speaking, HAL-9001 is built with JavaScript for an engaging and responsive user experience on the frontend. The backend, developed with Python, efficiently processes and stores data, ensuring reliability and performance.
   <p align="left">
-  HAL-9001 is the go-to solution for effortless management of your spirit inventory.
+  PHAL-9001 is the go-to solution for effortless management of your spirit inventory.
 
 
 <!-- GETTING STARTED -->
