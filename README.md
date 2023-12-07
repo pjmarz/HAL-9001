@@ -23,7 +23,7 @@
     <a href="https://github.com/pjmarz/HAL-9001/wiki"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/pjmarz/HAL-9001">View Demo</a>
+    <a href="https://youtu.be/dQw4w9WgXcQ?si=RTUD3Qyf2yX0JeCD">View Demo</a>
     ·
     <a href="https://github.com/pjmarz/HAL-9001/issues">Report Bug</a>
     ·
