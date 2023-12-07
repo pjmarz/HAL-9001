@@ -90,8 +90,8 @@ This is an example of how to list things you need to use the software and how to
   npm install npm@latest -g
   ``` -->
 
-### Installation
-<!-- 
+<!-- ### Installation
+
 1. Get a free API Key at [https://example.com](https://example.com)
 2. Clone the repo
    ```sh
@@ -109,11 +109,11 @@ This is an example of how to list things you need to use the software and how to
 
 
 <!-- USAGE EXAMPLES -->
-## Usage
+<!-- ## Usage
 
 Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 
-_For more examples, please refer to the [Documentation](https://github.com/pjmarz/HAL-9001/wiki)_
+_For more examples, please refer to the [Documentation](https://github.com/pjmarz/HAL-9001/wiki)_ -->
 
 
 
@@ -135,9 +135,9 @@ See the [open issues](https://github.com/pjmarz/HAL-9001/issues) for a full list
 
 
 <!-- CONTRIBUTING -->
-## Contributing
+<!-- ## Contributing
 
-<!-- Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
 If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
 Don't forget to give the project a star! Thanks again!
