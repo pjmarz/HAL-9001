@@ -1,0 +1,26 @@
+.start-button {
+    background-color: #013143;
+    border: 1px solid;
+    border-color: #ffffff1a;
+    border-radius: 25px;
+    height: 76px;
+    overflow: hidden;
+    position: relative;
+    width: 244px;
+  }
+  
+  .start-button .text-wrapper {
+    color: #a49b95;
+    font-family: "JetBrains Mono-ExtraBold", Helvetica;
+    font-size: 32px;
+    font-weight: 800;
+    left: -37px;
+    letter-spacing: 0;
+    line-height: 100px;
+    position: absolute;
+    text-align: center;
+    top: -16px;
+    white-space: nowrap;
+    width: 318px;
+  }
+  
