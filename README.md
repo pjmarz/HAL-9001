@@ -75,6 +75,12 @@
   <p align="left">
   HAL-9001 is the go-to solution for effortless management of your spirit inventory.
 
+<div align="left">
+
+## Design
+
+Check out the [Figma Design](https://www.figma.com/file/tZgf4bbk0TsXYaUsz28yWK/Hal-9001?type=design&node-id=0%3A1&mode=design&t=kABJrifNiPMdgAby-1) for this project.
+</div>
 
 <!-- GETTING STARTED -->
 <!-- ## Getting Started
