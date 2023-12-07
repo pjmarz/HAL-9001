@@ -210,7 +210,7 @@ Peter Marino - [linktree](https://linktr.ee/pjmarz)
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/pjmarz/
 [product-screenshot]: images/screenshot.png
-[React]: https://img.shields.io/badge/react-grey?style=for-the-badge&logo=react
-[React-url]: https://react.dev/
+[Next.js]: https://img.shields.io/badge/next.js-grey?style=for-the-badge&logo=next.js
+[Next.js-url]: https://nextjs.org/
 [Python]: https://img.shields.io/badge/python-000000?style=for-the-badge&logo=python
 [Python-url]: https://www.python.org/
