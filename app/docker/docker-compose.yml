@@ -3,8 +3,8 @@ version: '3.8'
 services:
   frontend:
     build:
-      context: ./app
-      dockerfile: docker/Dockerfile.frontend
+      context: ..
+      dockerfile: ./docker/Dockerfile.frontend
     ports:
       - "80:80" # Assuming your frontend is configured to run on port 80
     networks:
@@ -12,8 +12,8 @@ services:
 
   backend:
     build:
-      context: ./app
-      dockerfile: docker/Dockerfile.backend
+      context: ..
+      dockerfile: ./docker/Dockerfile.backend
     ports:
       - "3000:3000" # Adjust if your backend runs on a different port
     networks:
