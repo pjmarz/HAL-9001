@@ -8,7 +8,7 @@ WORKDIR /usr/src/app
 COPY package*.json .
 
 # Copy the rest of the frontend source code
-COPY packages/frontend/src ./packages/frontend
+COPY packages/frontend/ ./packages/frontend
 
 # Build the app
 RUN npm install
