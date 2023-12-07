@@ -22,5 +22,8 @@ RUN addgroup -S appgroup && adduser -S appuser -G appgroup
 # Switch to the new user
 USER appuser
 
+# Expose port 3000 to the outside once the container has launched
+EXPOSE 3000
+
 # The default command to run when starting the container
 CMD ["npm", "run", "--prefix", "packages/backend", "serve"]
