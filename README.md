@@ -153,7 +153,7 @@ Don't forget to give the project a star! Thanks again!
 <!-- LICENSE -->
 ## License
 
-Distributed under the MIT License. See `LICENSE.txt` for more information.
+ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 
 
