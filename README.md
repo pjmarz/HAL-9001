@@ -130,8 +130,8 @@ See the [open issues](https://github.com/pjmarz/HAL-9001/issues) for a full list
 
 ### Built With
 
-[![Next.js][Next.js]][Next.js-url]
-[![Python][Python]][Python-url]
+[![React][React]][React-url]
+[![Node.js][Node.js]][Node.js-url]
 
 
 <!-- CONTRIBUTING -->
@@ -189,7 +189,7 @@ Peter Marino - [linktree](https://linktr.ee/pjmarz)
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/pjmarz/
 [product-welcome]: images/welcome.png
-[Next.js]: https://img.shields.io/badge/next.js-grey?style=for-the-badge&logo=next.js
-[Next.js-url]: https://nextjs.org/
-[Python]: https://img.shields.io/badge/python-000000?style=for-the-badge&logo=python
-[Python-url]: https://www.python.org/
+[React]: https://img.shields.io/badge/react-grey?style=for-the-badge&logo=react
+[React-url]: https://react.dev/
+[Node.js]: https://img.shields.io/badge/node.js-000000?style=for-the-badge&logo=node.js
+[Node.js-url]: https://nodejs.org/en
