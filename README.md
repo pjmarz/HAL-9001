@@ -1,9 +1,9 @@
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
-[![PullRequest][pullrequest-shield]][pullrequest-url]
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
 
 
 
@@ -18,7 +18,7 @@
 
   <p align="center">
   The next and final addition to managing your bar cart.
-  <!-- <p align="center">
+  <p align="center">
     <br />
     <a href="https://github.com/pjmarz/HAL-9001/wiki"><strong>Explore the docs »</strong></a>
     <br />
@@ -29,12 +29,12 @@
     ·
     <a href="https://github.com/pjmarz/HAL-9001/issues">Request Feature</a>
   </p>
-</div> -->
+</div>
 
 
 
 <!-- TABLE OF CONTENTS -->
-<!-- <details>
+<details>
   <summary>Table of Contents</summary>
   <ol>
     <li>
@@ -57,7 +57,7 @@
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
-</details> -->
+</details>
 
 
 
@@ -71,19 +71,13 @@
   <p align="left">
   HAL-9001 employs a high-resolution camera to capture detailed images of liquor bottles. It then utilizes AI to analyze these images and extract valuable data such as the brand, model, alcohol by volume (ABV), and suggested retail price. This process enables users to easily manage and access information about their liquor collections.
   <p align="left">
-  Technically speaking, HAL-9001 is built with React for an engaging and responsive user experience on the frontend. The backend, developed with Node.js, efficiently processes and stores data, ensuring reliability and performance.
+  Technically speaking, HAL-9001 is built with JavaScript for an engaging and responsive user experience on the frontend. The backend, developed with Python, efficiently processes and stores data, ensuring reliability and performance.
   <p align="left">
   HAL-9001 is the go-to solution for effortless management of your spirit inventory.
 
-<div align="left">
-
-## Design
-
-Check out the [Figma Design](https://www.figma.com/file/tZgf4bbk0TsXYaUsz28yWK/Hal-9001?type=design&node-id=0%3A1&mode=design&t=kABJrifNiPMdgAby-1) for this project.
-</div>
 
 <!-- GETTING STARTED -->
-<!-- ## Getting Started
+## Getting Started
 
 This is an example of how you may give instructions on setting up your project locally.
 To get a local copy up and running follow these simple example steps.
@@ -94,9 +88,9 @@ This is an example of how to list things you need to use the software and how to
 * npm
   ```sh
   npm install npm@latest -g
-  ``` -->
+  ```
 
-<!-- ### Installation
+### Installation
 
 1. Get a free API Key at [https://example.com](https://example.com)
 2. Clone the repo
@@ -110,39 +104,38 @@ This is an example of how to list things you need to use the software and how to
 4. Enter your API in `config.js`
    ```js
    const API_KEY = 'ENTER YOUR API';
-   ``` -->
+   ```
 
 
 
 <!-- USAGE EXAMPLES -->
-<!-- ## Usage
+## Usage
 
 Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 
-_For more examples, please refer to the [Documentation](https://github.com/pjmarz/HAL-9001/wiki)_ -->
+_For more examples, please refer to the [Documentation](https://github.com/pjmarz/HAL-9001/wiki)_
 
 
 
 <!-- ROADMAP -->
-<!-- ## Roadmap
+## Roadmap
 
 - [ ] Feature 1
 - [ ] Feature 2
 - [ ] Feature 3
     - [ ] Nested Feature
 
-See the [open issues](https://github.com/pjmarz/HAL-9001/issues) for a full list of proposed features (and known issues). -->
+See the [open issues](https://github.com/pjmarz/HAL-9001/issues) for a full list of proposed features (and known issues).
 
-<div align="left">
 
 ### Built With
 
- [![React][React]][React-url]
- [![Node.js][Node.js]][Node.js-url]
-</div>
+[![React][React]][React-url]
+[![Node.js][Node.js]][Node.js-url]
+
 
 <!-- CONTRIBUTING -->
-<!-- ## Contributing
+## Contributing
 
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
@@ -153,34 +146,32 @@ Don't forget to give the project a star! Thanks again!
 2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
 3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request -->
+5. Open a Pull Request
 
 
 
 <!-- LICENSE -->
-<div align="left">
-
 ## License
 
- Distributed under the MIT License. See `LICENSE.txt` for more information.
-</div>
+Distributed under the MIT License. See `LICENSE.txt` for more information.
+
 
 
 <!-- CONTACT -->
-<!-- ## Contact
+## Contact
 
 Peter Marino - [linktree](https://linktr.ee/pjmarz)
 
-Project Link: [https://github.com/pjmarz/HAL-9001](https://github.com/pjmarz/HAL-9001) -->
+<!-- Project Link: [https://github.com/pjmarz/HAL-9001](https://github.com/pjmarz/HAL-9001) -->
 
 
 
 <!-- ACKNOWLEDGMENTS -->
-<!-- ## Acknowledgments
+## Acknowledgments
 
 * []()
 * []()
-* []() -->
+* []()
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
@@ -191,8 +182,6 @@ Project Link: [https://github.com/pjmarz/HAL-9001](https://github.com/pjmarz/HAL
 [forks-url]: https://github.com/pjmarz/HAL-9001/network/members
 [stars-shield]: https://img.shields.io/github/stars/pjmarz/HAL-9001.svg?style=for-the-badge
 [stars-url]: https://github.com/pjmarz/HAL-9001/stargazers
-[pullrequest-shield]: https://img.shields.io/github/issues-pr-raw/pjmarz/HAL-9001?style=for-the-badge
-[pullrequest-url]: https://github.com/pjmarz/HAL-9001/pulls
 [issues-shield]: https://img.shields.io/github/issues/pjmarz/HAL-9001.svg?style=for-the-badge
 [issues-url]: https://github.com/pjmarz/HAL-9001/issues
 [license-shield]: https://img.shields.io/github/license/pjmarz/HAL-9001.svg?style=for-the-badge
