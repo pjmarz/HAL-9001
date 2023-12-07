@@ -16,7 +16,7 @@
 
 <h3 align="center">HAL-9001</h3>
 
-  <p align="left">
+  <p align="center">
   The next and final addition to your bar cart.
   <p align="center">
     <br />
@@ -78,16 +78,6 @@
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-
-### Built With
-
-[![Next.js][Next.js]][Next.js-url]
-[![Python][Python]][Python-url]
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
 <!-- GETTING STARTED -->
 ## Getting Started
 
@@ -146,6 +136,13 @@ See the [open issues](https://github.com/pjmarz/HAL-9001/issues) for a full list
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
+### Built With
+
+[![Next.js][Next.js]][Next.js-url]
+[![Python][Python]][Python-url]
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 <!-- CONTRIBUTING -->
 ## Contributing
@@ -170,8 +167,6 @@ Don't forget to give the project a star! Thanks again!
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 <!-- CONTACT -->
@@ -181,8 +176,6 @@ Peter Marino - [linktree](https://linktr.ee/pjmarz)
 
 <!-- Project Link: [https://github.com/pjmarz/HAL-9001](https://github.com/pjmarz/HAL-9001) -->
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 <!-- ACKNOWLEDGMENTS -->
@@ -191,9 +184,6 @@ Peter Marino - [linktree](https://linktr.ee/pjmarz)
 * []()
 * []()
 * []()
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
