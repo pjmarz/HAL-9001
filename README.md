@@ -67,13 +67,13 @@
 [![Product Name Screen Shot][product-welcome]](https://github.com/pjmarz/HAL-9001)
 
  <p align="left">
-  Welcome to HAL-9001, where we believe that every bottle of liquor has a story worth telling - and we're here to spill the details (but not the liquor, we promise). This nifty system is like a sommelier meets tech whiz, designed to transform the way we look at (literally) and manage information about liquor and spirit bottles. 
+  Welcome to HAL-9001, a system dedicated to cataloging and interpreting information from liquor and spirit bottles. By leveraging advanced imaging technology paired with the analytical capabilities of OpenAI's ChatGPT, HAL-9001 offers a sophisticated way to identify and organize data about various spirits.   
   <p align="left">
-  Combining the eagle-eyed precision of a camera with the Sherlock Holmes-esque deduction skills of OpenAI's ChatGPT, HAL-9001 is on a mission to uncover the secrets behind every bottle. From the deep, dark mysteries of an aged whiskey to the spirited tales of a lively vodka, this system captures images of liquor bottles and uses AI to deduce make, model, alcohol by volume (ABV), and even the price tag - because who doesn't like to know the value of their liquid treasures?
+  HAL-9001 employs a high-resolution camera to capture detailed images of liquor bottles. It then utilizes AI to analyze these images and extract valuable data such as the brand, model, alcohol by volume (ABV), and suggested retail price. This process enables users to easily manage and access information about their liquor collections.
   <p align="left">
-  Here's the techy bit: HAL-9001 uses JavaScript for a smooth and interactive frontend, because we like our interfaces like we like our martinis - sleek and easy to navigate. The backend is powered by Python, the workhorse that silently crunches numbers and data, much like a dedicated bartender perfecting a cocktail.
+  Technically speaking, HAL-9001 is built with JavaScript for an engaging and responsive user experience on the frontend. The backend, developed with Python, efficiently processes and stores data, ensuring reliability and performance.
   <p align="left">
-  Pull up a chair, grab a drink, and let HAL-9001 handle all your management needs.
+  HAL-9001 is the go-to solution for effortless management of your spirit inventory.
 
 
 <!-- GETTING STARTED -->
