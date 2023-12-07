@@ -18,7 +18,7 @@
 
   <p align="center">
   The next and final addition to managing your bar cart.
-  <p align="center">
+  <!-- <p align="center">
     <br />
     <a href="https://github.com/pjmarz/HAL-9001/wiki"><strong>Explore the docs »</strong></a>
     <br />
@@ -29,7 +29,7 @@
     ·
     <a href="https://github.com/pjmarz/HAL-9001/issues">Request Feature</a>
   </p>
-</div>
+</div> -->
 
 
 
