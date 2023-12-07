@@ -130,7 +130,6 @@ See the [open issues](https://github.com/pjmarz/HAL-9001/issues) for a full list
 
 ### Built With
 
-<p align="left">
 [![React][React]][React-url]
 [![Node.js][Node.js]][Node.js-url]
 
