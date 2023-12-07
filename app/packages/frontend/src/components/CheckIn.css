@@ -1,0 +1,20 @@
+.new-bottle {
+  margin: 0;
+}
+.check-in-text {
+  position: relative;
+}
+.check-in {
+  border-radius: var(--br-xl);
+  background-color: var(--color-limegreen);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 100px 50px;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: var(--font-size-17xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}

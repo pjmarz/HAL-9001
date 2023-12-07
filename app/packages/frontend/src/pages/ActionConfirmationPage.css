@@ -1,0 +1,28 @@
+.jack-daniels-old {
+  margin: 0;
+}
+.title-text {
+  position: absolute;
+  top: calc(50% - 29px);
+  left: calc(50% - 252px);
+}
+.hal-9001-logo-icon1 {
+  position: absolute;
+  top: 386px;
+  left: 706px;
+  width: 94px;
+  height: 94px;
+  object-fit: cover;
+  cursor: pointer;
+}
+.action-confirmation-page {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 480px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-5xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}

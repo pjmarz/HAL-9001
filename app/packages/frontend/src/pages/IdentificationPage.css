@@ -1,0 +1,52 @@
+.hal-9001-logo-icon3 {
+  position: absolute;
+  top: 0;
+  left: 111px;
+  width: 577px;
+  height: 527px;
+  object-fit: cover;
+}
+.background-logo1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-6xl);
+  background-color: var(--color-darkslategray-100);
+  backdrop-filter: blur(4px);
+  width: 800px;
+  height: 480px;
+  overflow: hidden;
+}
+.camera-frame1,
+.title-text2 {
+  position: absolute;
+  top: 20px;
+  left: 252px;
+}
+.camera-frame1 {
+  top: 87px;
+  left: 54px;
+  background-color: var(--color-gainsboro);
+  width: 346px;
+  height: 321px;
+}
+.image-1-icon1 {
+  position: absolute;
+  top: 90px;
+  left: 141px;
+  width: 153px;
+  height: 316px;
+  object-fit: cover;
+}
+.identification-page {
+  position: relative;
+  border-radius: var(--br-6xl);
+  background-color: var(--color-white);
+  width: 100%;
+  height: 480px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-17xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
