@@ -127,12 +127,13 @@ _For more examples, please refer to the [Documentation](https://github.com/pjmar
 
 See the [open issues](https://github.com/pjmarz/HAL-9001/issues) for a full list of proposed features (and known issues). -->
 
+<div align="left">
 
 ### Built With
 
  [![React][React]][React-url]
  [![Node.js][Node.js]][Node.js-url]
-
+</div>
 
 <!-- CONTRIBUTING -->
 <!-- ## Contributing
