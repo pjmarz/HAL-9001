@@ -7,11 +7,13 @@ WORKDIR /usr/src/app
 # Copy the package.json and package-lock.json
 COPY package*.json .
 
+RUN npm install
+
 # Copy the rest of the backend source code
 COPY packages/backend/ ./packages/backend
 
 # Build the backend
-RUN npm install
+# RUN npm run build --prefix packages/backend
 
 # Add a non-root user for security purposes
 RUN addgroup --gid 1001 appuser && \
