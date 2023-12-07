@@ -1,24 +1,20 @@
 import React from "react";
-import "./style.css";
+import "./index.module.css";
 
-export const SelectionMenu = (): JSX.Element => {
+export const Welcome = (): JSX.Element => {
   return (
-    <div className="selection-menu">
-      <div className="overlap-group-wrapper">
-        <div className="overlap-group">
+    <div className="welcome">
+      <div className="overlap-wrapper">
+        <div className="overlap">
           <div className="background-logo">
-            <img className="HAL-logo" alt="Hal logo" src="HAL-9001-logo.png" />
+            <div className="overlap-group">
+              <div className="HAL-text">HAL-9001</div>
+              <img className="HAL-logo" alt="Hal logo" src="HAL-9001-logo.png" />
+            </div>
           </div>
-          <button className="button">
-            <div className="text-wrapper">Control Lights</div>
-          </button>
-          <button className="div-wrapper">
-            <div className="div">Spotify</div>
-          </button>
-          <button className="button-2">
-            <div className="text-wrapper-2">Update Database</div>
-          </button>
-          <img className="img" alt="Hal logo" src="image.png" />
+          <div className="start-button">
+            <div className="text-wrapper">Begin</div>
+          </div>
         </div>
       </div>
     </div>
