@@ -4,6 +4,7 @@
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
+[![PullRequest][pullrequest-shield]][pullrequest-url]
 
 
 
@@ -182,6 +183,8 @@ Project Link: [https://github.com/pjmarz/HAL-9001](https://github.com/pjmarz/HAL
 [forks-url]: https://github.com/pjmarz/HAL-9001/network/members
 [stars-shield]: https://img.shields.io/github/stars/pjmarz/HAL-9001.svg?style=for-the-badge
 [stars-url]: https://github.com/pjmarz/HAL-9001/stargazers
+[pullrequest-shield]: (https://img.shields.io/github/issues-pr-raw/pjmarz/HAL-9001?style=flat-square)
+[pullrequest-url]: (https://github.com/pjmarz/HAL-9001/pulls)
 [issues-shield]: https://img.shields.io/github/issues/pjmarz/HAL-9001.svg?style=for-the-badge
 [issues-url]: https://github.com/pjmarz/HAL-9001/issues
 [license-shield]: https://img.shields.io/github/license/pjmarz/HAL-9001.svg?style=for-the-badge
