@@ -5,13 +5,14 @@ import {
   useNavigationType,
   useLocation,
 } from "react-router-dom";
+import Welcome from "./components/Welcome";
+import SelectionMenu from "./pages/SelectionMenu";
 import ActionConfirmationPage from "./pages/ActionConfirmationPage";
 import DataReturnPage from "./pages/DataReturnPage";
 import IdentificationPage from "./pages/IdentificationPage";
 import UpdateDatabase from "./pages/UpdateDatabase";
 import LightsControlPanel from "./pages/LightsControlPanel";
 import SpotifyMenu from "./pages/SpotifyMenu";
-import SelectionMenu from "./pages/SelectionMenu";
 
 function App() {
   const action = useNavigationType();
@@ -30,6 +31,14 @@ function App() {
 
     switch (pathname) {
       case "/":
+        title = "";
+        metaDescription = "";
+        break;
+      case "/selection-menu":
+        title = "";
+        metaDescription = "";
+        break;
+      case "/action-confirmation-page":
         title = "";
         metaDescription = "";
         break;
@@ -53,10 +62,6 @@ function App() {
         title = "";
         metaDescription = "";
         break;
-      case "/selection-menu":
-        title = "";
-        metaDescription = "";
-        break;
     }
 
     if (title) {
@@ -75,13 +80,17 @@ function App() {
 
   return (
     <Routes>
-      <Route path="/" element={<ActionConfirmationPage />} />
+      <Route path="/" element={<Welcome />} />
+      <Route path="/selection-menu" element={<SelectionMenu />} />
+      <Route
+        path="/action-confirmation-page"
+        element={<ActionConfirmationPage />}
+      />
       <Route path="/data-return-page" element={<DataReturnPage />} />
       <Route path="/identification-page" element={<IdentificationPage />} />
       <Route path="/update-database" element={<UpdateDatabase />} />
       <Route path="/lights-control-panel" element={<LightsControlPanel />} />
       <Route path="/spotify-menu" element={<SpotifyMenu />} />
-      <Route path="/selection-menu" element={<SelectionMenu />} />
     </Routes>
   );
 }

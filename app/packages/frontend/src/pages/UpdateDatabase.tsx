@@ -18,22 +18,22 @@ const UpdateDatabase: FunctionComponent = () => {
   }, [navigate]);
 
   return (
-    <div className="update-database">
+    <div className="update-database1">
       <div className="background-logo2">
         <img
-          className="hal-9001-logo-icon4"
+          className="hal-9001-logo-icon5"
           alt=""
           src="/hal9001-logo2@2x.png"
         />
-        <div className="button" onClick={onButtonContainerClick}>
+        <div className="button3" onClick={onButtonContainerClick}>
           <div className="check-out-finished">Check out finished bottle</div>
         </div>
       </div>
-      <div className="button1" onClick={onButtonContainer1Click}>
+      <div className="button4" onClick={onButtonContainer1Click}>
         <div className="check-in-new">Check in new bottle</div>
       </div>
       <img
-        className="hal-9001-logo-icon5"
+        className="hal-9001-logo-icon6"
         alt=""
         src="/hal9001-logo3@2x.png"
         onClick={onHAL9001LogoImage1Click}

@@ -13,13 +13,13 @@ const SpotifyMenu: FunctionComponent = () => {
     <div className="spotify-menu">
       <div className="background-logo4">
         <img
-          className="hal-9001-logo-icon8"
+          className="hal-9001-logo-icon9"
           alt=""
           src="/hal9001-logo2@2x.png"
         />
       </div>
       <img
-        className="hal-9001-logo-icon9"
+        className="hal-9001-logo-icon10"
         alt=""
         src="/hal9001-logo3@2x.png"
         onClick={onHAL9001LogoImage1Click}

@@ -15,13 +15,13 @@ body {
   --font-size-5xl: 24px;
 
   /* Colors */
+  --color-white: #fff;
   --color-darkslategray-100: #343131;
   --color-darkslategray-200: #013143;
   --color-gray: rgba(255, 255, 255, 0.1);
   --color-darkgray: #a59c95;
   --color-limegreen: #1cc700;
   --color-black: #000;
-  --color-white: #fff;
   --color-gainsboro: #d9d9d9;
 
   /* Paddings */

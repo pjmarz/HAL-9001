@@ -1,4 +1,4 @@
-.hal-9001-logo-icon10 {
+.hal-9001-logo-icon {
   position: absolute;
   top: 0;
   left: 111px;
@@ -6,7 +6,7 @@
   height: 527px;
   object-fit: cover;
 }
-.background-logo5 {
+.background-logo {
   position: absolute;
   top: 0;
   left: 0;
@@ -27,7 +27,7 @@
   width: 318px;
   height: 114px;
 }
-.button2 {
+.button {
   position: absolute;
   top: 340px;
   left: 216px;
@@ -50,7 +50,7 @@
   width: 318px;
   height: 114px;
 }
-.button3 {
+.button1 {
   position: absolute;
   top: 200px;
   left: 216px;
@@ -63,7 +63,7 @@
   overflow: hidden;
   cursor: pointer;
 }
-.update-database1 {
+.update-database {
   position: absolute;
   top: -17px;
   left: 40px;
@@ -73,12 +73,12 @@
   width: 318px;
   height: 114px;
 }
-.button4,
-.hal-9001-logo-icon11 {
+.button2,
+.hal-9001-logo-icon1 {
   position: absolute;
   cursor: pointer;
 }
-.button4 {
+.button2 {
   top: 60px;
   left: 216px;
   border-radius: var(--br-6xl);
@@ -89,7 +89,7 @@
   height: 80px;
   overflow: hidden;
 }
-.hal-9001-logo-icon11 {
+.hal-9001-logo-icon1 {
   top: 386px;
   left: 706px;
   width: 94px;

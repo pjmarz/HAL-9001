@@ -7,7 +7,7 @@ const DataReturnPage: FunctionComponent = () => {
   const navigate = useNavigate();
 
   const onCheckInContainerClick = useCallback(() => {
-    navigate("/");
+    navigate("/action-confirmation-page");
   }, [navigate]);
 
   const onComponent1Frame6Click = useCallback(() => {
@@ -42,7 +42,7 @@ const DataReturnPage: FunctionComponent = () => {
         onCheckInContainerClick={onCheckInContainerClick}
       />
       <img
-        className="hal-9001-logo-icon2"
+        className="hal-9001-logo-icon3"
         alt=""
         src="/hal9001-logo1@2x.png"
         onClick={onHAL9001LogoImageClick}

@@ -7,7 +7,7 @@ const IdentificationPage: FunctionComponent = () => {
     <div className="identification-page">
       <div className="background-logo1">
         <img
-          className="hal-9001-logo-icon3"
+          className="hal-9001-logo-icon4"
           alt=""
           src="/hal9001-logo2@2x.png"
         />

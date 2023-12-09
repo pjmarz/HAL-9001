@@ -20,7 +20,7 @@ const ActionConfirmationPage: FunctionComponent = () => {
         </p>
       </div>
       <img
-        className="hal-9001-logo-icon1"
+        className="hal-9001-logo-icon2"
         alt=""
         src="/hal9001-logo1@2x.png"
         onClick={onHAL9001LogoImageClick}

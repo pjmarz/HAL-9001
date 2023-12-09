@@ -1,4 +1,4 @@
-.hal-9001-logo-icon4 {
+.hal-9001-logo-icon5 {
   position: absolute;
   top: 0;
   left: 111px;
@@ -17,12 +17,12 @@
   height: 114px;
 }
 .background-logo2,
-.button {
+.button3 {
   position: absolute;
   border-radius: var(--br-6xl);
   overflow: hidden;
 }
-.button {
+.button3 {
   top: 260px;
   left: 201px;
   background-color: var(--color-darkslategray-200);
@@ -50,12 +50,12 @@
   width: 318px;
   height: 114px;
 }
-.button1,
-.hal-9001-logo-icon5 {
+.button4,
+.hal-9001-logo-icon6 {
   position: absolute;
   cursor: pointer;
 }
-.button1 {
+.button4 {
   top: 141px;
   left: 201px;
   border-radius: var(--br-6xl);
@@ -66,14 +66,14 @@
   height: 80px;
   overflow: hidden;
 }
-.hal-9001-logo-icon5 {
+.hal-9001-logo-icon6 {
   top: 386px;
   left: 706px;
   width: 94px;
   height: 94px;
   object-fit: cover;
 }
-.update-database {
+.update-database1 {
   position: relative;
   border-radius: var(--br-6xl);
   background-color: var(--color-white);
