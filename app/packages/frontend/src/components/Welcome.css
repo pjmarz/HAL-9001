@@ -1,0 +1,93 @@
+.hal-9001-logo-icon11 {
+  position: relative;
+  width: 311px;
+  height: 311px;
+  object-fit: cover;
+}
+.hal-9001-text {
+  position: relative;
+  font-size: 128px;
+  letter-spacing: 0.17em;
+  line-height: 120px;
+  font-weight: 800;
+  font-family: var(--font-jetbrains-mono);
+  color: rgba(247, 194, 156, 0.39);
+  text-align: center;
+  display: inline-block;
+  width: 800px;
+  height: 120px;
+  flex-shrink: 0;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25),
+    0 0 1087.22px rgba(247, 194, 156, 0.39),
+    0 0 621.27px rgba(247, 194, 156, 0.39),
+    0 0 362.41px rgba(247, 194, 156, 0.39),
+    0 0 181.2px rgba(247, 194, 156, 0.39), 0 0 51.77px rgba(247, 194, 156, 0.39);
+  filter: blur(15px);
+  margin-top: -156px;
+}
+.background-logo5 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-6xl);
+  background-color: var(--color-darkslategray-100);
+  backdrop-filter: blur(4px);
+  width: 800px;
+  height: 480px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 24px 0;
+  box-sizing: border-box;
+}
+.begin {
+  position: relative;
+  font-size: var(--font-size-13xl);
+  line-height: 100px;
+  font-weight: 800;
+  font-family: var(--font-jetbrains-mono);
+  color: var(--color-darkgray);
+  text-align: center;
+  display: inline-block;
+  width: 318px;
+  height: 114px;
+  flex-shrink: 0;
+}
+.frame,
+.start-button {
+  position: absolute;
+  overflow: hidden;
+}
+.frame {
+  top: -23px;
+  left: -37px;
+  width: 318px;
+  height: 122px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+.start-button {
+  top: 367px;
+  left: 278px;
+  border-radius: var(--br-6xl);
+  background-color: var(--color-darkslategray-200);
+  border: 1px solid var(--color-gray);
+  box-sizing: border-box;
+  width: 244px;
+  height: 76px;
+  cursor: pointer;
+}
+.welcome {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: relative;
+  border-radius: 24px;
+  width: 100%;
+  height: 480px;
+}

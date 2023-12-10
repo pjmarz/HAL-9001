@@ -1,0 +1,110 @@
+.hal-9001-logo-icon {
+  position: absolute;
+  top: 0;
+  left: 111px;
+  width: 577px;
+  height: 527px;
+  object-fit: cover;
+}
+.background-logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-6xl);
+  background-color: var(--color-darkslategray-100);
+  backdrop-filter: blur(4px);
+  width: 800px;
+  height: 480px;
+  overflow: hidden;
+}
+.control-lights {
+  position: absolute;
+  top: -17px;
+  left: 40px;
+  line-height: 110.5px;
+  font-weight: 800;
+  display: inline-block;
+  width: 318px;
+  height: 114px;
+}
+.button {
+  position: absolute;
+  top: 340px;
+  left: 216px;
+  border-radius: var(--br-6xl);
+  background-color: var(--color-darkslategray-200);
+  border: 1px solid var(--color-gray);
+  box-sizing: border-box;
+  width: 397px;
+  height: 80px;
+  overflow: hidden;
+  cursor: pointer;
+}
+.spotify {
+  position: absolute;
+  top: -17px;
+  left: 40px;
+  line-height: 112px;
+  font-weight: 800;
+  display: inline-block;
+  width: 318px;
+  height: 114px;
+}
+.button1 {
+  position: absolute;
+  top: 200px;
+  left: 216px;
+  border-radius: var(--br-6xl);
+  background-color: var(--color-darkslategray-200);
+  border: 1px solid var(--color-gray);
+  box-sizing: border-box;
+  width: 397px;
+  height: 80px;
+  overflow: hidden;
+  cursor: pointer;
+}
+.update-database {
+  position: absolute;
+  top: -17px;
+  left: 40px;
+  line-height: 114px;
+  font-weight: 800;
+  display: inline-block;
+  width: 318px;
+  height: 114px;
+}
+.button2,
+.hal-9001-logo-icon1 {
+  position: absolute;
+  cursor: pointer;
+}
+.button2 {
+  top: 60px;
+  left: 216px;
+  border-radius: var(--br-6xl);
+  background-color: var(--color-darkslategray-200);
+  border: 1px solid var(--color-gray);
+  box-sizing: border-box;
+  width: 397px;
+  height: 80px;
+  overflow: hidden;
+}
+.hal-9001-logo-icon1 {
+  top: 386px;
+  left: 706px;
+  width: 94px;
+  height: 94px;
+  object-fit: cover;
+}
+.selection-menu {
+  position: relative;
+  border-radius: var(--br-6xl);
+  background-color: var(--color-white);
+  width: 100%;
+  height: 480px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-13xl);
+  color: var(--color-darkgray);
+  font-family: var(--font-jetbrains-mono);
+}
