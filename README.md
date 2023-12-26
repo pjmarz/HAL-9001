@@ -5,6 +5,7 @@
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
 
+[![Build/Test Status](https://github.com/pjmarz/HAL-9001/actions/workflows/build-test.yaml/badge.svg)](https://github.com/pjmarz/HAL-9001/actions/workflows/build-test.yaml)
 
 
 <!-- PROJECT LOGO -->
