@@ -1,0 +1,24 @@
+name: Build and Test Containers
+
+on:
+  push:
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Build the Docker images
+      run: |
+        cd app/docker
+        docker compose build
+
+    - name: Run tests
+      run: |
+        docker compose --rm run frontend npm run test
+        docker-compose --rm run backend npm run test
+       
