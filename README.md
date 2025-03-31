@@ -17,19 +17,16 @@
 <h3 align="center">HAL-9001</h3>
 
   <p align="center">
-  The next and final addition to managing your bar cart.
-  <!-- <p align="center">
+    Your AI-Powered Bar Cart Management System
     <br />
     <a href="https://github.com/pjmarz/HAL-9001/wiki"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://youtu.be/dQw4w9WgXcQ?si=RTUD3Qyf2yX0JeCD">View Demo</a>
-    ·
     <a href="https://github.com/pjmarz/HAL-9001/issues">Report Bug</a>
     ·
     <a href="https://github.com/pjmarz/HAL-9001/issues">Request Feature</a>
   </p>
-</div> -->
+</div>
 
 
 
@@ -66,122 +63,106 @@
 
 [![Product Name Screen Shot][product-welcome]](https://github.com/pjmarz/HAL-9001)
 
- <p align="left">
-  Welcome to HAL-9001, a system dedicated to cataloging and interpreting information from liquor and spirit bottles. By leveraging advanced imaging technology paired with the analytical capabilities of OpenAI's ChatGPT, HAL-9001 offers a sophisticated way to identify and organize data about various spirits.   
-  <p align="left">
-  HAL-9001 employs a high-resolution camera to capture detailed images of liquor bottles. It then utilizes AI to analyze these images and extract valuable data such as the brand, model, alcohol by volume (ABV), and suggested retail price. This process enables users to easily manage and access information about their liquor collections.
-  <p align="left">
-  Technically speaking, HAL-9001 is built with React for an engaging and responsive user experience on the frontend. The backend, developed with Node.js, efficiently processes and stores data, ensuring reliability and performance.
-  <p align="left">
-  HAL-9001 is the go-to solution for effortless management of your spirit inventory.
+HAL-9001 is a cutting-edge system that revolutionizes how you manage your spirits collection. By combining advanced imaging technology with AI-powered analysis, it offers an intelligent solution for cataloging and organizing your bar cart.
 
-<div align="left">
+### Key Features
 
-## Design
-
-Check out the [Figma Design](https://www.figma.com/file/tZgf4bbk0TsXYaUsz28yWK/Hal-9001?type=design&node-id=0%3A1&mode=design&t=kABJrifNiPMdgAby-1) for this project.
-</div>
-
-<!-- GETTING STARTED -->
-<!-- ## Getting Started
-
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ``` -->
-
-<!-- ### Installation
-
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/github_username/repo_name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ``` -->
-
-
-
-<!-- USAGE EXAMPLES -->
-<!-- ## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://github.com/pjmarz/HAL-9001/wiki)_ -->
-
-
-
-<!-- ROADMAP -->
-<!-- ## Roadmap
-
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-    - [ ] Nested Feature
-
-See the [open issues](https://github.com/pjmarz/HAL-9001/issues) for a full list of proposed features (and known issues). -->
-
-<div align="left">
+- 📸 **Smart Image Recognition**: Capture bottle images with high-resolution camera integration
+- 🤖 **AI-Powered Analysis**: Leverages OpenAI's ChatGPT for intelligent data extraction
+- 📊 **Comprehensive Data Collection**: Automatically extracts:
+  - Brand and model information
+  - Alcohol by volume (ABV)
+  - Suggested retail price
+  - Bottle details and characteristics
+- 📱 **Modern User Interface**: Built with React for a seamless user experience
+- 🔄 **Real-time Processing**: Efficient Node.js backend for quick data processing
 
 ### Built With
 
- [![React][React]][React-url]
- [![Node.js][Node.js]][Node.js-url]
-</div>
+- [![React][React]][React-url] - Frontend framework
+- [![Node.js][Node.js]][Node.js-url] - Backend runtime
+- OpenAI ChatGPT - AI analysis
+- High-resolution imaging system
 
-<!-- CONTRIBUTING -->
-<!-- ## Contributing
+## Getting Started
 
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+Follow these steps to set up HAL-9001 locally.
 
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
+### Prerequisites
+
+- Node.js (v14 or higher)
+- npm
+  ```sh
+  npm install npm@latest -g
+  ```
+- A compatible camera system
+- OpenAI API key
+
+### Installation
+
+1. Clone the repository
+   ```sh
+   git clone https://github.com/pjmarz/HAL-9001.git
+   ```
+2. Install NPM packages
+   ```sh
+   cd HAL-9001
+   npm install
+   ```
+3. Configure your environment variables
+   ```sh
+   cp .env.example .env
+   ```
+4. Enter your API keys in `.env`
+   ```
+   OPENAI_API_KEY=your_api_key_here
+   ```
+
+## Usage
+
+1. Start the application
+   ```sh
+   npm start
+   ```
+2. Open your browser and navigate to `http://localhost:3000`
+3. Follow the on-screen instructions to:
+   - Set up your camera
+   - Capture bottle images
+   - View and manage your collection
+
+## Design
+
+Check out our [Figma Design](https://www.figma.com/file/tZgf4bbk0TsXYaUsz28yWK/Hal-9001?type=design&node-id=0%3A1&mode=design&t=kABJrifNiPMdgAby-1) to see the UI/UX planning and design system.
+
+## Roadmap
+
+- [ ] Multi-bottle scanning
+- [ ] Mobile app development
+- [ ] Cocktail recipe recommendations
+- [ ] Inventory tracking system
+- [ ] Social sharing features
+
+See the [open issues](https://github.com/pjmarz/HAL-9001/issues) for a full list of proposed features and known issues.
+
+## Contributing
+
+Contributions make the open source community an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
 1. Fork the Project
 2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
 3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request -->
-
-
-
-<!-- LICENSE -->
-<div align="left">
+5. Open a Pull Request
 
 ## License
 
- Distributed under the MIT License. See [`LICENSE.txt`](/LICENSE.txt) for more information.
-</div>
+Distributed under the MIT License. See `LICENSE.txt` for more information.
 
+## Contact
 
-<!-- CONTACT -->
-<!-- ## Contact
+Peter Marino - [@pjmarz](https://twitter.com/pjmarz) - petermarino2@gmail.com
 
-Peter Marino - [linktree](https://linktr.ee/pjmarz)
-
-Project Link: [https://github.com/pjmarz/HAL-9001](https://github.com/pjmarz/HAL-9001) -->
-
-
-
-<!-- ACKNOWLEDGMENTS -->
-<!-- ## Acknowledgments
-
-* []()
-* []()
-* []() -->
-
+Project Link: [https://github.com/pjmarz/HAL-9001](https://github.com/pjmarz/HAL-9001)
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
