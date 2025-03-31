@@ -2,6 +2,7 @@ version: '3.8'
 
 services:
   frontend:
+    container_name: frontend
     build:
       context: ..
       dockerfile: ./docker/Dockerfile.frontend
@@ -11,6 +12,7 @@ services:
       - hal-9001-network
 
   backend:
+    container_name: backend
     build:
       context: ..
       dockerfile: ./docker/Dockerfile.backend
