@@ -30,37 +30,46 @@
 
 </div>
 
+## Quickstart
 
+### Prerequisites
+- Node.js 18+
+- npm 9+
 
-<!-- TABLE OF CONTENTS -->
-<!-- <details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
-  </ol>
-</details> -->
+### 1) Setup (monorepo workspaces)
+```sh
+# From the repo root
+cp .env.example .env  # optional for local defaults
+npm install
+```
 
+### 2) Run in development
+```sh
+# From the repo root
+npm run dev
+```
+- Backend: http://localhost:3001
+- Frontend: http://localhost:3000
 
+### 3) Run with Docker
+```sh
+cd app/docker
+docker compose up --build
+```
+- Frontend: http://localhost:80
+- Backend: http://localhost:3001
 
-<!-- ABOUT THE PROJECT -->
+## API
+- GET `/health` → `{ status: "ok" }`
+- GET `/` → welcome + endpoints
+- POST `/api/identify` → returns stubbed bottle data
+- POST `/api/checkin` → stub ack
+- POST `/api/checkout` → stub ack
+
+## Notes
+- Frontend uses `REACT_APP_API_BASE` (default `http://localhost:3001`) and CRA dev proxy.
+- See `.env.example` for environment variables.
+
 ## About The Project
 
 [![Product Name Screen Shot][product-welcome]](https://github.com/pjmarz/HAL-9001)
@@ -86,69 +95,7 @@ HAL-9001 is a cutting-edge system that revolutionizes how you manage your spirit
 - OpenAI ChatGPT - AI analysis
 - High-resolution imaging system
 
-## Getting Started
-
-Follow these steps to set up HAL-9001 locally.
-
-### Prerequisites
-
-- Node.js (v14 or higher)
-- npm
-  ```sh
-  npm install npm@latest -g
-  ```
-- A compatible camera system
-- OpenAI API key
-
-### Installation
-
-1. Clone the repository
-   ```sh
-   git clone https://github.com/pjmarz/HAL-9001.git
-   ```
-2. Install NPM packages
-   ```sh
-   cd HAL-9001
-   npm install
-   ```
-3. Configure your environment variables
-   ```sh
-   cp .env.example .env
-   ```
-4. Enter your API keys in `.env`
-   ```
-   OPENAI_API_KEY=your_api_key_here
-   ```
-
-## Usage
-
-1. Start the application
-   ```sh
-   npm start
-   ```
-2. Open your browser and navigate to `http://localhost:3000`
-3. Follow the on-screen instructions to:
-   - Set up your camera
-   - Capture bottle images
-   - View and manage your collection
-
-## Design
-
-Check out our [Figma Design](https://www.figma.com/file/tZgf4bbk0TsXYaUsz28yWK/Hal-9001?type=design&node-id=0%3A1&mode=design&t=kABJrifNiPMdgAby-1) to see the UI/UX planning and design system.
-
-## Roadmap
-
-- [ ] Multi-bottle scanning
-- [ ] Mobile app development
-- [ ] Cocktail recipe recommendations
-- [ ] Inventory tracking system
-- [ ] Social sharing features
-
-See the [open issues](https://github.com/pjmarz/HAL-9001/issues) for a full list of proposed features and known issues.
-
 ## Contributing
-
-Contributions make the open source community an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
 1. Fork the Project
 2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)

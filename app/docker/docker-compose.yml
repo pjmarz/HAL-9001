@@ -6,19 +6,26 @@ services:
       context: ..
       dockerfile: ./docker/Dockerfile.frontend
     ports:
-      - "80:80" # Assuming your frontend is configured to run on port 80
+      - "80:80"
     networks:
       - hal-9001-network
+    depends_on:
+      backend:
+        condition: service_healthy
 
   backend:
     build:
       context: ..
       dockerfile: ./docker/Dockerfile.backend
     ports:
-      - "3000:3000" # Adjust if your backend runs on a different port
+      - "3001:3001"
     networks:
       - hal-9001-network
-    command: npm run --prefix packages/backend serve
+    healthcheck:
+      test: ["CMD", "wget", "-qO-", "http://localhost:3001/health"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
 
 networks:
   hal-9001-network:

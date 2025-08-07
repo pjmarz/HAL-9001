@@ -1,8 +1,51 @@
-import { FunctionComponent } from "react";
+import { FunctionComponent, useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 import State1Icon from "../components/State1Icon";
 import "./IdentificationPage.css";
 
+const API_BASE = process.env.REACT_APP_API_BASE || "http://localhost:3001";
+
 const IdentificationPage: FunctionComponent = () => {
+  const navigate = useNavigate();
+
+  useEffect(() => {
+    let isCancelled = false;
+
+    async function identifyBottle() {
+      try {
+        const resp = await fetch(`${API_BASE}/api/identify`, {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({}),
+        });
+        const json = await resp.json();
+        if (!isCancelled) {
+          sessionStorage.setItem(
+            "hal9001_identifiedBottle",
+            JSON.stringify(json)
+          );
+        }
+      } catch (err) {
+        if (!isCancelled) {
+          sessionStorage.setItem(
+            "hal9001_identifiedBottle",
+            JSON.stringify({ ok: false, error: (err as Error).message })
+          );
+        }
+      } finally {
+        if (!isCancelled) {
+          setTimeout(() => navigate("/data-return-page"), 800);
+        }
+      }
+    }
+
+    identifyBottle();
+
+    return () => {
+      isCancelled = true;
+    };
+  }, [navigate]);
+
   return (
     <div className="identification-page">
       <div className="background-logo1">

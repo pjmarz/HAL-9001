@@ -6,3 +6,23 @@ node_modules/
 
 # Mac
 .DS_Store
+
+# Env files
+.env
+.env.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# Build artifacts
+app/packages/frontend/build/
+app/packages/backend/dist/
+coverage/
+
+# Editor/OS
+*.swp
+.idea/
+.vscode/
