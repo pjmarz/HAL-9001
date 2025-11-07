@@ -6,10 +6,13 @@ const UpdateDatabase: FunctionComponent = () => {
   const navigate = useNavigate();
 
   const onButtonContainerClick = useCallback(() => {
+    // Check out finished bottle - navigate to identification page
+    // In a full implementation, this would show a list of bottles to select
     navigate("/identification-page");
   }, [navigate]);
 
   const onButtonContainer1Click = useCallback(() => {
+    // Check in new bottle - navigate to identification page
     navigate("/identification-page");
   }, [navigate]);
 

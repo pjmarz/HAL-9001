@@ -1,4 +1,14 @@
 {
+  "name": "hal-9001",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev:frontend": "cd packages/frontend && npm start",
+    "dev:backend": "cd packages/backend && npm run dev",
+    "install:all": "npm install && cd packages/frontend && npm install && cd ../backend && npm install",
+    "build:frontend": "cd packages/frontend && npm run build",
+    "build:backend": "cd packages/backend && npm run build"
+  },
   "dependencies": {
     "@types/react": "^18.2.42",
     "@types/react-dom": "^18.2.17",

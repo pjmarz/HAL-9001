@@ -6,18 +6,27 @@ services:
       context: ..
       dockerfile: ./docker/Dockerfile.frontend
     ports:
-      - "80:80" # Assuming your frontend is configured to run on port 80
+      - "80:80"
     networks:
       - hal-9001-network
+    depends_on:
+      - backend
 
   backend:
     build:
       context: ..
       dockerfile: ./docker/Dockerfile.backend
     ports:
-      - "3000:3000" # Adjust if your backend runs on a different port
+      - "3000:3000"
     networks:
       - hal-9001-network
+    environment:
+      - NODE_ENV=production
+    env_file:
+      - ../.env
+    volumes:
+      - ../app/packages/backend/data:/usr/src/app/packages/backend/data
+      - ../app/packages/backend/uploads:/usr/src/app/packages/backend/uploads
     command: npm run --prefix packages/backend serve
 
 networks:

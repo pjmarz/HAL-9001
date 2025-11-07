@@ -1,4 +1,4 @@
-# Stage 1: Build the React application
+# Stage 1: Build the backend
 FROM node:18 as build-stage
 
 # Set the working directory in the container
@@ -12,13 +12,16 @@ RUN npm install
 # Copy the rest of the backend source code
 COPY packages/backend/ ./packages/backend
 
-# Build the backend
-# RUN npm run build --prefix packages/backend
+# Install backend dependencies
+RUN cd packages/backend && npm install
 
 # Add a non-root user for security purposes
 RUN addgroup --gid 1001 appuser && \
     adduser --disabled-password --gecos "" --ingroup appuser --uid 1001 appuser
-RUN chown -R appuser:appuser /usr/src/app && \
+
+# Create directories for data and uploads
+RUN mkdir -p packages/backend/data packages/backend/uploads && \
+    chown -R appuser:appuser /usr/src/app && \
     chmod -R 755 /usr/src/app
 
 # Switch to the new user
@@ -27,5 +30,8 @@ USER appuser
 # Expose port 3000 to the outside once the container has launched
 EXPOSE 3000
 
+# Set working directory to backend
+WORKDIR /usr/src/app/packages/backend
+
 # The default command to run when starting the container
-CMD ["npm", "run", "--prefix", "packages/backend", "serve"]
+CMD ["npm", "run", "serve"]

@@ -1,9 +1,21 @@
-import { FunctionComponent, useCallback } from "react";
-import { useNavigate } from "react-router-dom";
+import { FunctionComponent, useCallback, useEffect, useState } from "react";
+import { useNavigate, useLocation } from "react-router-dom";
+import { BottleData } from "../services/api";
 import "./ActionConfirmationPage.css";
 
 const ActionConfirmationPage: FunctionComponent = () => {
   const navigate = useNavigate();
+  const location = useLocation();
+  const [bottleData, setBottleData] = useState<BottleData | null>(null);
+  const [action, setAction] = useState<string>("added");
+
+  useEffect(() => {
+    const state = location.state as { bottleData?: BottleData; action?: string };
+    if (state?.bottleData) {
+      setBottleData(state.bottleData);
+      setAction(state.action || "added");
+    }
+  }, [location]);
 
   const onHAL9001LogoImageClick = useCallback(() => {
     navigate("/selection-menu");
@@ -13,10 +25,10 @@ const ActionConfirmationPage: FunctionComponent = () => {
     <div className="action-confirmation-page">
       <div className="title-text">
         <p className="jack-daniels-old">
-          Jack Daniel's Old No. 7 Tennessee Whiskey
+          {bottleData?.name || "Bottle"}
         </p>
         <p className="jack-daniels-old">
-          Sucessfully Added/Removed from database!
+          Successfully {action === "added" ? "Added" : "Removed"} from database!
         </p>
       </div>
       <img
